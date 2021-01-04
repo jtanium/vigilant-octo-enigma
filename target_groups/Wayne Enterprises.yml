@@ -1,0 +1,6 @@
+type: target-group
+name: Wayne Enterprises
+conditions:
+  - operator: regex
+    property: user
+    operand: .*@wayne.corp$

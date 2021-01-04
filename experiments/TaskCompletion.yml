@@ -1,0 +1,10 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+flag: TaskCompletion
+conditions:
+  - group:
+      name: Gotham City Users
+    value: true
+value:
+  - percentage: 50
+    option: true

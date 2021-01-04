@@ -1,0 +1,6 @@
+type: target-group
+name: Gotham City Users
+conditions:
+  - operator: regex
+    property: user
+    operand: (.*)@gotham.city$
